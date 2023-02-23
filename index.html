@@ -34,10 +34,9 @@
 <body>
 
   <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="d-flex align-items-center fixed-top">
+  <div id="topbar" class="d-none d-md-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-between">
-      <div class="contact-info d-flex align-items-center" style="font-size:19px;font-weight:600;">
-        <i class="bi bi-envelope"></i> <a href="#contact_form">info@alpinegutters.us</a>
+      <div class="contact-info d-flex align-items-center" style="font-size:21px;font-weight:600;">
         <i class="bi bi-phone"></i> <a href="tel:+16073871010">+1 607 387-1010</a>
       </div>
       <div class="d-none d-lg-flex social-links align-items-center">
@@ -65,11 +64,16 @@
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
+
       </nav><!-- .navbar -->
 
-      <a href="tel:+16073871010" class="appointment-btn scrollto"><span class="d-none d-md-inline">Book</span> Now</a>
+      <a href="tel:+16073871010" class="appointment-btn scrollto d-none d-md-block"><span class="d-none d-md-inline">Book</span> Now</a>
 
     </div>
+        <a href="tel:+16073871010" class="appointment-btn scrollto d-md-none" style="
+    display: block;
+    width: 70%;margin: auto;margin-top: 25px;font-weight: 700;font-size: 18px; text-align: center;"
+      >Call Us: (+1 607 387-1010)</a>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
